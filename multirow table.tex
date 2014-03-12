@@ -1,0 +1,27 @@
+\title{}
+\documentclass[8pt]{memoir}
+\usepackage{multirow}
+
+\begin{document}
+% The comments column had to be a multi row since the Exhibits in class column bisects it. Thus there is an ''invisible'' column used in the table, at least in a certain sense. 
+\begin{tabular}{|l | l | l | l || l | l|}
+\hline
+\multicolumn{4}{|l ||} {Class 100 Dutch Black and Blue} & \multicolumn{2}{l |}{Class 100}\\
+\hline
+Pen & Place & \multicolumn{2}{ l ||}{ Comments}  & Pen & Place \\ 
+\hline
+1 & & \multicolumn{2}{ l ||}{ } & 1 & \\
+2 & & \multicolumn{2}{ l ||}{ } & 2 & \\
+5 & & \multicolumn{2}{ l ||}{ } & 5 & \\
+7 & & \multicolumn{2}{ l ||}{ } & 7 & \\
+9 & & \multicolumn{2}{ l ||}{ } & 9 & \\
+12 & & \multicolumn{2}{ l ||}{ } & 12 & \\
+15 & & \multicolumn{2}{ l ||}{ } & 15 & \\
+16 & & \multicolumn{2}{ l ||}{ } & 16 & \\
+\hline
+\multicolumn{3}{| l |}{Exhibits in class} & & NIC & 8 \\
+\multicolumn{3}{| l |}{Results Required} & & Rlts & 4 \\
+\hline
+\end{tabular}
+
+\end{document}
